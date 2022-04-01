@@ -1,0 +1,208 @@
+
+
+body{
+    font-family: Georgia;
+    
+background: #3b3b3b;
+color: #333;
+
+}
+
+nav{
+  font-size: 1rem;
+  background-color: white;
+}
+nav ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  display:flex;
+  justify-content: flex-end;
+
+}
+nav ul li{
+  cursor:pointer;
+  padding: 0.5rem;
+}
+nav ul li:hover{
+  background-color: aquamarine;
+  color:#ddd;
+}
+#span{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+  #prvi{
+      background-image: url("image/banner.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      height:70vh;
+   
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      color:white;
+      
+  }
+  .drugi{
+background-color: #ddd;
+display: flex;
+flex-direction: row;
+justify-content: space-around;}
+  
+
+  #cetvrti
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:#ddd
+  }
+  
+  @media all and (max-width: 400px){
+    nav ul{
+      flex-direction: column;
+    }
+    nav ul li{
+      text-align: center;
+    }
+  }
+  @media all and (max-width: 400px){
+    .drugi{
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: center}
+  }
+  #cetvrti
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#ddd
+  }
+  @media all and (max-width: 500px){
+    #prvi{
+      height:50vh;
+      width:50vh;
+    }
+    .drugi{
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: center}
+  }
+  #cetvrti
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  
+  }
+  nav ul{
+    flex-direction: column;
+  }
+  nav ul li{
+    text-align: center;
+  }
+
+  @media all and (max-width: 800px){
+     #prvi{
+      height:50vh;
+      width:50vh;
+    }
+    .drugi{
+      
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around}
+  }
+  #cetvrti
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+  
+  }
+  nav ul{
+    flex-direction: row;
+  }
+  nav ul li{
+    text-align: center;
+  }
+  @media all and (max-width: 700px){
+    #prvi{
+     background-size: cover;
+     background-repeat: no-repeat;
+   }
+   .drugi{
+     
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around}
+ }
+ #cetvrti
+ {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   
+ 
+ }
+ nav ul{
+   flex-direction: row;
+ }
+ nav ul li{
+   text-align: center;
+ }
+ @media all and (max-width: 200px){
+  #prvi{
+    height:50vh;
+    width:50vh;
+  }
+  .drugi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center}
+}
+#cetvrti
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+
+}
+nav ul{
+  flex-direction: column;
+}
+nav ul li{
+  text-align: center;
+ }
+
+ @media all and (max-width: 1000px){
+  
+  .drugi{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around}
+}
+#cetvrti
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+
+}
+nav ul{
+  flex-direction: row;
+}
+nav ul li{
+  text-align: center;
+}
